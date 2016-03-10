@@ -3,3 +3,21 @@ h1 {
 text-align: center;
 
 }
+
+.column1 {
+  padding-top: 50px;
+  float: left;
+  width: 400px;
+  border-color: black;
+  
+}
+
+.column2 {
+  padding-top: 50px;
+  float: left;
+  width: 400px;
+}
+
+body {
+  background-color: lightgreen;
+}
