@@ -16,7 +16,8 @@ return showMe
 
 $(document).ready(function() {
   $("form#pingMe").submit(function(event) {
-      var pingNumber = parseInt($("input#userNumber").val());
+  $("#result").empty();
+  var pingNumber = parseInt($("input#userNumber").val());
 	var result = pingPong(pingNumber)
 	var newResult = result.join("<br />");
 
