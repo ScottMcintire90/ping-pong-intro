@@ -8,6 +8,24 @@
     <title>Ping Pong Web App</title>
   </head>
   <body>
-    
+    <div class="container">
+      <h1>Welcome to the Ping Pong Web App</h1>
+	     <h3>Here's how it works:</h3>
+		    <ol>
+		     <li>All numbers divisible by 3 are replaced with Ping</li>
+		     <li>All numbers divisible by 5 are replaced with Pong</li>
+		     <li>All numbers divisible by 15 are replaced with PingPong</li>
+		    </ol>
+
+      <form id="pingMe">
+        <label for="userNumber">Enter a number here:</label>
+        <input id="userNumber" type="text">
+        <button type="submit" class="btn">Go!</button>
+      </form>
+
+      <div id="result">
+      </div>
+
+    </div>
   </body>
 </html>
